@@ -55,6 +55,9 @@ If you find this work useful, please consider citing it.
 }
 </code></pre>
 
+### License
+This project is released under the [GNU General Public License v3.0](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020/blob/master/LICENSE).
+
 
 
 
