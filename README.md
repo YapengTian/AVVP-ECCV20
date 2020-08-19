@@ -6,7 +6,7 @@ Unified Multisensory Perception: Weakly-Supervised Audio-Visual Video Parsing (T
 
 ### Audio-visual video parsing
 
-We define the Audio-Visual Video Parsing as a task to group video segments
+We define the <b>Audio-Visual Video Parsing</b> as a task to group video segments
 and parse a video into different temporal audio, visual, and audio-visual events
 associated with semantic labels.
 
