@@ -1,8 +1,6 @@
 Unified Multisensory Perception: Weakly-Supervised Audio-Visual Video Parsing (To appear in ECCV 2020) 
 
-[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480443.pdf) [Video](https://www.youtube.com/watch?v=y4QB5RicUo8) 
-
-[![Watch the video](Figs/demo_thumbnail.png)](https://www.youtube.com/watch?v=y4QB5RicUo8)
+[Yapeng Tian](http://yapengtian.org/), [Dingzeyu Li](https://dingzeyu.li/), and [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/) 
 
 ### Audio-visual video parsing
 
@@ -11,6 +9,7 @@ and parse a video into different temporal audio, visual, and audio-visual events
 associated with semantic labels.
 
 ![image](Figs/avvp_fig.png)
+
 
 ### LLP Dataset & Features
 
