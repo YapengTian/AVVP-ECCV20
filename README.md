@@ -36,6 +36,13 @@ Training:
 ```bash
 python main_avvp.py --mode test --gpu 0 --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
 ```
+### Download videos (coming soon)
+
+download raw videos
+
+### Feature extraction (coming soon)
+
+extract you own audio and visual features
 
 ### Citation
 
