@@ -41,7 +41,7 @@ download raw videos
 
 ### Feature extraction (coming soon)
 
-extract you own audio and visual features
+extract your own audio and visual features
 
 ### Citation
 
