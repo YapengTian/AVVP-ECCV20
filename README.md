@@ -10,7 +10,7 @@ We define the Audio-Visual Video Parsing as a task to group video segments
 and parse a video into different temporal audio, visual, and audio-visual events
 associated with semantic labels.
 
-![image](Figs/avvp.png)
+![image](Figs/avvp_fig.png)
 
 ### LLP Dataset & Features
 
