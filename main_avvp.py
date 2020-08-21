@@ -188,7 +188,7 @@ def main():
         "--checkpoint", type=str, default='MMIL_Net',
         help="save model name")
     parser.add_argument(
-        '--gpu', type=str, default='1', help='gpu device number')
+        '--gpu', type=str, default='0', help='gpu device number')
     args = parser.parse_args()
 
     os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
