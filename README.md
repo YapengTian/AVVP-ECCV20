@@ -13,14 +13,14 @@ associated with semantic labels.
 
 ### LLP Dataset & Features
 ```bash
-# annotations for LLP dataset 
+# LLP dataset annotations
 cd data
 AVVP_dataset_full.csv: full dataset with weak annotaions
 AVVP_train.csv: training set with weak annotaions
-AVVP_val_pd.csv: val set with weak annotaionsa
+AVVP_val_pd.csv: val set with weak annotaions
 AVVP_test_pd.csv: test set with weak annotaions
-AVVP_eval_audio.csv: dense audio event annotations for videos in val and test sets
-AVVP_eval_visual.csv: dense visual event annotations for videos in val and test sets
+AVVP_eval_audio.csv: audio event dense annotations for videos in val and test sets
+AVVP_eval_visual.csv: visual event dense annotations for videos in val and test sets
 ```
 Note that audio-visual events can be derived from audio and visual events.
 
