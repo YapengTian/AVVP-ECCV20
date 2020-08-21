@@ -25,7 +25,7 @@ AVVP_eval_visual.csv: visual event dense annotations for videos in val and test 
 Note that audio-visual events can be derived from audio and visual events.
 
 We use [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish), [ResNet152](https://pytorch.org/docs/stable/torchvision/models.html), and [ResNet (2+1)D](https://pytorch.org/docs/stable/torchvision/models.html) to extract audio, 2D frame-level, and 3D snippet-level features, respectively. 
-The audio and visual features of videos in the LLP dataset can be download from this Google Drive [link](). The features are in the "feats" folder.
+The audio and visual features of videos in the LLP dataset can be download from this Google Drive [link](https://drive.google.com/file/d/10CeaI1G9uIyz5dKnd7XTeH9-qOehC7CL/view). The features are in the "feats" folder.
 
 
 ### Requirements
