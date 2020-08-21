@@ -48,14 +48,14 @@ Training:
 ```bash
 python main_avvp.py --mode test --gpu 0 --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
 ```
-### Download videos (coming soon)
+### Download videos (optional)
 
 Download raw videos in the LLP dataset. The downloaded videos will be in the data/LLP_dataset/video folder. Pandas and FFmpeg libraries are required.
 ```bash
 python ./scripts/download_dataset.py 
 ```
 
-### Data pre-processing & Feature extraction (coming soon)
+### Data pre-processing & Feature extraction (optional)
 Extract audio waveforms from videos. The extracted audios will be in the data/LLP_dataset/audio folder.  moviepy library is used to read videos and extract audios.   
 ```bash
 python ./scripts/extract_audio.py
