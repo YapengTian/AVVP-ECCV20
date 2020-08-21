@@ -155,12 +155,12 @@ def main():
     # Training settings
     parser = argparse.ArgumentParser(description='PyTorch Implementation of Audio-Visual Video Parsing')
     parser.add_argument(
-        "--audio_dir", type=str, default='/mnt/ssd0/dat/ytian21/AVSP_data/feats/vggish/', help="audio dir")
+        "--audio_dir", type=str, default='data/feats/vggish/', help="audio dir")
     parser.add_argument(
-        "--video_dir", type=str, default='/mnt/ssd0/dat/ytian21/AVSP_data/feats/res152/',
+        "--video_dir", type=str, default='data/feats/res152/',
         help="video dir")
     parser.add_argument(
-        "--st_dir", type=str, default='/mnt/ssd0/dat/ytian21/AVSP_data/feats/r2plus1d_18/',
+        "--st_dir", type=str, default='data/feats/r2plus1d_18/',
         help="video dir")
     parser.add_argument(
         "--label_train", type=str, default="data/AVVP_train.csv", help="weak train csv file")

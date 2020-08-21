@@ -12,8 +12,21 @@ associated with semantic labels.
 
 
 ### LLP Dataset & Features
+```bash
+# annotations for LLP dataset 
+cd data
+AVVP_dataset_full.csv: full dataset with weak annotaions
+AVVP_train.csv: training set with weak annotaions
+AVVP_val_pd.csv: val set with weak annotaionsa
+AVVP_test_pd.csv: test set with weak annotaions
+AVVP_eval_audio.csv: dense audio-event annotations for videos in val and test sets
+AVVP_eval_visual.csv: dense visual-event annotations for videos in val and test sets
+```
 
-under preparation.
+
+We use [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish), [ResNet152](https://pytorch.org/docs/stable/torchvision/models.html), and [ResNet (2+1)D](https://pytorch.org/docs/stable/torchvision/models.html) to extract audio, 2D frame-level, and 3D snippet-level features, respectively. 
+The audio and visual features of videos in the LLP dataset can be download from this Google Drive [link](). The features are in the "feats" folder.
+
 
 ### Requirements
 
@@ -38,6 +51,9 @@ python main_avvp.py --mode test --gpu 0 --audio_dir /xx/feats/vggish/ --video_di
 ### Download videos (coming soon)
 
 download raw videos
+```bash
+python main_avvp.py --mode test --gpu 0 --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
+```
 
 ### Feature extraction (coming soon)
 
