@@ -50,14 +50,32 @@ python main_avvp.py --mode test --gpu 0 --audio_dir /xx/feats/vggish/ --video_di
 ```
 ### Download videos (coming soon)
 
-download raw videos
+Download raw videos in the LLP dataset. The downloaded videos will be in the data/LLP_dataset/video folder. Pandas and FFmpeg libraries are required.
 ```bash
-python main_avvp.py --mode test --gpu 0 --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
+python ./scripts/download_dataset.py 
 ```
 
-### Feature extraction (coming soon)
+### Data pre-processing & Feature extraction (coming soon)
+Extract audio waveforms from videos. The extracted audios will be in the data/LLP_dataset/audio folder.  moviepy library is used to read videos and extract audios.   
+```bash
+python ./scripts/extract_audio.py
+```
+Extract video frames from videos. The extracted frames will be in the data/LLP_dataset/frame folder. 
+```bash
+python ./scripts/extract_frames.py 
+```
 
-extract your own audio and visual features
+Audio feature extractor can be found from [here](https://drive.google.com/file/d/1TJL3cIpZsPHGVAdMgyr43u_vlsxcghKY/view).
+
+2D visual feature. pretrainedmodels library is required.
+```bash
+python ./scripts/extract_rgb_feat.py
+```
+3D visual feature. 
+```bash
+python ./scripts/extract_3D_feat.py
+```
+
 
 ### Citation
 
