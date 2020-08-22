@@ -81,7 +81,7 @@ python ./scripts/extract_3D_feat.py
 
 If you find this work useful, please consider citing it.
 
-<pre><code>@InProceedings{tian2018ave,
+<pre><code>@InProceedings{tian2020avvp,
   author={Yapeng Tian, Dingzeyu Li, and Chenliang Xu},
   title={Unified Multisensory Perception: Weakly-Supervised Audio-Visual Video Parsing},
   booktitle = {ECCV},
