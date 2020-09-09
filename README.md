@@ -40,13 +40,13 @@ Testing:
 
 
 ```bash
-python main_avvp.py --mode train --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
+python main_avvp.py --mode test --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
 ```
 
 Training:
 
 ```bash
-python main_avvp.py --mode test --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
+python main_avvp.py --mode train --audio_dir /xx/feats/vggish/ --video_dir /xx/feats/res152/ --st_dir /xx/feats/r2plus1d_18/
 ```
 ### Download videos (optional)
 
