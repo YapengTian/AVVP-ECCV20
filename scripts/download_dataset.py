@@ -9,7 +9,7 @@ def download(set, name, t_seg):
         os.makedirs(path_data)
     link_prefix = "https://www.youtube.com/watch?v="
 
-    filename_full_video = os.path.join(path_data, name) + "_full_video.mp4"
+    filename_full_video = os.path.join(path_data, name) + "_full_video"
     filename = os.path.join(path_data, name) + ".mp4"
     link = link_prefix + name
 
@@ -18,10 +18,9 @@ def download(set, name, t_seg):
         return
 
     print( "download the whole video for: [%s] - [%s]" % (set, name))
-    command1 = 'youtube-dl --ignore-config '
+    command1 = 'yt-dlp '
     command1 += link + " "
     command1 += "-o " + filename_full_video + " "
-    command1 += "-f best "
 
     #command1 += '-q '  # print no log
     #print command1
